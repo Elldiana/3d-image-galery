@@ -12,8 +12,8 @@ body{
 }
 .box{
     position: relative;
-    width: 400px;
-    height: 500px;
+    width: 200px;
+    height: 300px;
     transform-style: preserve-3d;
     transform: perspective(1000px);
 }
@@ -24,7 +24,7 @@ body{
     width: 100%;
     height: 100%;
     background: #fff;
-    transform: rotateY(calc(var(--i) * 45deg)) translateZ(480px);
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(240px);
     -webkit-box-reflect: below 0px linear-gradient(transparent,transparent, #0002);
 }
 .box span img {
